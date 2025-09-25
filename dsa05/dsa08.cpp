@@ -7,8 +7,11 @@ int main(){
     int binary_tree[len];
 
     binary_tree[0]=first_array[0];
-    cout<<binary_tree[1];
-    
+    for (int i=1; i < len-1; i++){
+        for(int j=1; j < len-1; j++){
+            if
+        }                                                                                                                                                                                                                                                                                                                                               `
+    }
         
     return 0;
 };
