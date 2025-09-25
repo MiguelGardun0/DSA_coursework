@@ -85,7 +85,6 @@ int main(){
 
          if (choice == 3){
             cout<<my_stack.peek()<<endl;
-
             continue;
             
         }
