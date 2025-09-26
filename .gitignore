@@ -1,3 +1,24 @@
+# Archivos binarios y ejecutables
+*.exe
+*.out
+*.o
+
+# Configuración de IDE
+.vscode/
+.idea/
+
+# Carpetas de compilación
+cmake-build-debug/
+build/
+CMakeFiles/
+
+# Archivos de CMake
+CMakeCache.txt
+Makefile
+
+# Archivos temporales del sistema
+*.log
+*.swp
 CMaleLists.txt
 .idea
 main.exe
