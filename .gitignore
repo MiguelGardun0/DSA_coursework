@@ -1,4 +1,7 @@
 CMaleLists.txt
 .idea
 main.exe
-
+.vscode
+./dsa05-binary_search/main
+./dsa05-binary_search/cmake-build-debug
+./dsa09-Stack/main
