@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int first_array[] = {1, 3, 5, 7, 8, 28, 32, 2};
+    int first_array[] = {11, 6, 8, 19, 4, 10, 5, 17, 43, 49, 31};
     int len = sizeof(first_array) / sizeof(first_array[0]);
     int binary_tree[len];
 
