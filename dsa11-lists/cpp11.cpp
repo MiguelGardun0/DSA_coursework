@@ -17,6 +17,7 @@ class List{
         };
 
         void insert(int choice, int number, int index=0){
+            //Insert at the front
             if (choice == 1){
                 L.resize(size + 1);
                 for(int i = size; i > 0; i--) {
@@ -25,13 +26,13 @@ class List{
                 L[0] = number;
                 size += 1;
             }
-
+            //Insert at the back
             else if (choice == 2){
                 L.resize(size + 1);
                 L[size]=number;
                 size += 1;
             }
-
+            //Insert at a given index
             else if (choice == 3){
                 L.resize(size + 1);
                 for(int i = size; i > index; i--) {
